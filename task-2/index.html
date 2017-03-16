@@ -58,6 +58,165 @@
   <audio data-key="76" id="audio-l" src="sounds/tink.wav"></audio>
 
 <script>
+window.addEventListener("keydown", function(click) {
+  // console.log("a key has been pressed", e["keyCode" == 65]);
+
+  //KEY A//
+  if (click["keyCode"] == 65) {
+    var audio = document.getElementById("audio-a");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-a");
+    key.classList.add("playing");
+  }
+
+  //KEY S//
+  if (click["keyCode"] == 83) {
+    var audio = document.getElementById("audio-s");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-s");
+    key.classList.add("playing");
+  }
+
+  //KEY D//
+  if (click["keyCode"] == 68) {
+    var audio = document.getElementById("audio-d");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-d");
+    key.classList.add("playing");
+  }
+
+  //KEY F//
+  if (click["keyCode"] == 70) {
+    var audio = document.getElementById("audio-f");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-f");
+    key.classList.add("playing");
+  }
+
+  //KEY G//
+  if (click["keyCode"] == 71) {
+    var audio = document.getElementById("audio-g");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-g");
+    key.classList.add("playing");
+  }
+
+  //KEY H//
+  if (click["keyCode"] == 72) {
+    var audio = document.getElementById("audio-h");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-h");
+    key.classList.add("playing");
+  }
+
+  //KEY J//
+  if (click["keyCode"] == 74) {
+    var audio = document.getElementById("audio-j");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-j");
+    key.classList.add("playing");
+  }
+
+  //KEY K//
+  if (click["keyCode"] == 75) {
+    var audio = document.getElementById("audio-k");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-k");
+    key.classList.add("playing");
+  }
+
+  //KEY L//
+  if (click["keyCode"] == 76) {
+    var audio = document.getElementById("audio-l");
+    audio.currentTime = 0;
+    audio.play();
+
+
+    var key = document.getElementById("key-l");
+    key.classList.add("playing");
+  }
+
+});
+
+//*************STEP TWO***************//
+
+//KEY A//
+var keyA = document.getElementById("key-a");
+keyA.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
+
+//KEY S//
+var keyS = document.getElementById("key-s");
+keyS.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
+
+//KEY D//
+var keyD = document.getElementById("key-d");
+keyD.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
+
+//KEY F//
+var keyF = document.getElementById("key-f");
+keyF.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
+
+//KEY G//
+var keyG = document.getElementById("key-g");
+keyG.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
+
+//KEY H//
+var keyH = document.getElementById("key-h");
+keyH.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
+
+//KEY J//
+var keyJ = document.getElementById("key-j");
+keyJ.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
+
+//KEY K//
+var keyK = document.getElementById("key-k");
+keyK.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
+
+//KEY L//
+var keyL = document.getElementById("key-l");
+keyL.addEventListener("transitionend", function(){
+  this.classList.remove("playing");
+});
 </script>
 
 
